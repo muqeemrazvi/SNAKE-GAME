@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+*{
+    padding: 0px;;
+    margin: 0px;
+}
+
+body{
+    background-color:aquamarine
+}
+
+/* .nav ul{
+    float: left;
+} */
+
+nav{
+    
+    list-style: none;
+    background-color: rgb(116, 234, 169);
+    color: rgb(0, 0, 0);
+    font-family:'Baloo Bhaina 2' ;
+    margin: -1px;
+    margin-top: -21px;
+    overflow: hidden; 
+       
+
+}
+
+nav ul{
+float: left;
+}
+
+nav li ul{
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+
+#leftnav{
+margin-left: 220px;
+background-color: rgb(79, 233, 140);
+border-radius: 10px;
+}
+
+
+
+.body{
+    background: url("bg.jpg"); 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background:linear-gradient(red,green);
+    height: 90vmin;
+    width: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+
+
+}
+#scoreBox{
+    position: absolute;
+    top: 30px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 70px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+.head{
+    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 9px;
+}
+
+.snake{
+    background-color: purple;
+    border: .25vmin solid white;
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(red, purple);
+    border: .25vmin solid black;
+    border-radius: 8px;
+}
+
+
+footer{
+   
+    font-family: 'roboto_condensedregular';
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 242, 255);
+    color: rgb(10, 28, 230);
+    text-align: center;
+}
+.user{
+    
+    font-family: 'Baloo Bhaina 2';
+    color: rgb(243, 3, 3);
+    padding-top: 4px;
+    
+    
+}
